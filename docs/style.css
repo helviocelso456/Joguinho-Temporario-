@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: dodgerblue;
+    background-image: url(20160621174602979816.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    font-family: verdana;
+}
+
+.card
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 3px 2px rgba(0,0,0,0.8);
+
+}
+
+#c1
+{
+    height: 100px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#c2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    background-image: url(mqdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.input-form
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.8);
+    
+}
+
+.corno-btn
+{
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0.8);
+}
+
+.btn-icon
+{
+    width: 50px;
+    height: 30px;
+    margin: auto;  
+}
+
+.ester-egg
+{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
